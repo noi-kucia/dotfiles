@@ -1,0 +1,7 @@
+[Daemon]
+LockGrace=30
+Timeout=30
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/cachyos-wallpapers/PinkLady.png
+PreviewImage=file:///usr/share/wallpapers/cachyos-wallpapers/PinkLady.png
