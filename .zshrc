@@ -95,6 +95,10 @@ else
   export EDITOR='nvim'
 fi
 
+# Vim & Nvim configuration
+# The .config/vim/.vimrc will load .config/nvim/.vimrc if neovim is detected
+export VIMINIT="source $HOME/.config/vim/.vimrc"
+
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
@@ -112,3 +116,7 @@ fi
 
 # Dotfiles
 alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/kucia/.local/bin:$PATH"
