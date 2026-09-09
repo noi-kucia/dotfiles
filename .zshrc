@@ -117,6 +117,7 @@ export VIMINIT="source $HOME/.config/vim/.vimrc"
 # Dotfiles
 alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 
+# Convenience
+alias please=sudo
 
-# Added by Antigravity CLI installer
 export PATH="/home/kucia/.local/bin:$PATH"
